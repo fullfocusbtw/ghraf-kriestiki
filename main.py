@@ -40,7 +40,7 @@ def play(n):
         if player == 'O':
             ai_play()
 
-#Да
+#Д
 
 def ai_play():
     empty_cells = [i for i in range(len(cell)) if not cell[i]['text']]
